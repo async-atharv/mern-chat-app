@@ -1,7 +1,7 @@
 import cron from 'cron';
 import https from 'https';
 
-const backendUrl= "https://mern-chat-app-v9tm.onrender.com"
+const backendUrl= "https://mern-chat-app-d2lc.onrender.com"
 
 const job = new cron.CronJob('14 * * * *',function (){
 // */14 11,22 * * *; */
